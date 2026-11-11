@@ -1,0 +1,4 @@
+.tmp_*
+.render_*
+posts/**/check-*.png
+node_modules/
