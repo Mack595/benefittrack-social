@@ -50,11 +50,25 @@
   "buffer_post_id": "6af49bff67456c42e9726416"
  },
  {
+  "date": "2026-11-24",
+  "slug": "year-end-resets",
+  "format": "animated reel",
+  "topic": "December: some categories may reset Dec 31; categories reset on different schedules; reminder first",
+  "buffer_post_id": "6afe05141173b0b5f0e044da"
+ },
+ {
   "date": "2026-11-25",
   "slug": "not-another-booklet",
   "format": "reel (talking head)",
   "topic": "Not another booklet (plain language)",
   "buffer_post_id": "6af49ce894165f8d07592a13"
+ },
+ {
+  "date": "2026-11-26",
+  "slug": "not-another-dashboard",
+  "format": "still",
+  "topic": "Not another dashboard: just a useful email",
+  "buffer_post_id": "6afe051861c30f01f6ce00e3"
  },
  {
   "date": "2026-11-27",
@@ -69,5 +83,19 @@
   "format": "reel (talking head)",
   "topic": "Prove it, with results",
   "buffer_post_id": "6af49cea56105614fa554dc7"
+ },
+ {
+  "date": "2026-12-01",
+  "slug": "trust-faq",
+  "format": "carousel",
+  "topic": "Trust FAQ: free, data never sold, booklet not stored, PIPEDA, built in Canada",
+  "buffer_post_id": "6afe051e37e9f56868bb725d"
+ },
+ {
+  "date": "2026-12-02",
+  "slug": "use-what-they-pay-for",
+  "format": "animated reel",
+  "topic": "Help employees use what the company pays for (plain language, reminders)",
+  "buffer_post_id": "6afe052224f63f6d4cb11251"
  }
 ]
