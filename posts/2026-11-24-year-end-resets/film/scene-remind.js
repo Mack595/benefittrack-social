@@ -7,7 +7,7 @@ kit.scene('remind', {
         '<div style="display:flex;flex-direction:column;gap:4px"><div class="card-sub" style="color:var(--second)">BenefitTrack</div><div class="card-title">Your health benefit checkup is here</div></div></div>' +
         '<div class="card-sub" style="font-size:36px">Massage resets Dec 31. Book before then.</div>' +
         '<div class="remind-btn" style="align-self:flex-start;padding:16px 30px;border-radius:40px;background:var(--main);font-family:Geist-Bold;font-size:32px;color:var(--ground)">Book a massage</div>' +
-      '</div></div><div class="words" style="left:80px;top:290px;width:860px"><h2 class="line remind-line">BenefitTrack reminds them first.</h2><p class="sub remind-sub">Before each date, by email.</p></div>')));
+      '</div></div><div class="words" style="left:80px;top:290px;width:860px"><h2 class="line remind-line">BenefitTrack reminds you first.</h2><p class="sub remind-sub">Before each date, by email.</p></div>')));
     const q = (s) => kit.stage.querySelector(s);
     Object.assign(this, { cam: q('.remind-cam'), mail: q('.remind-mail'), btn: q('.remind-btn'), line: q('.remind-line'), sub: q('.remind-sub') });
   },

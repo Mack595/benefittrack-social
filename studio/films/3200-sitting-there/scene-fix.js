@@ -11,7 +11,7 @@ kit.scene('fix', {
       '<div class="glass t-green fix-done" style="left:80px;top:1240px;width:860px;padding:24px 34px;display:flex;align-items:center;gap:24px">' +
         '<div style="flex:none;width:72px;height:72px;border-radius:36px;background:var(--main);display:flex;align-items:center;justify-content:center"><svg width="42" height="42" viewBox="0 0 24 24" fill="none" stroke="#0F1729" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></div>' +
         '<div class="card-title">Booked before it reset</div></div>' +
-      '</div><div class="words" style="left:80px;top:290px;width:860px"><h2 class="line fix-line">BenefitTrack reminds them first.</h2></div>')));
+      '</div><div class="words" style="left:80px;top:290px;width:860px"><h2 class="line fix-line">BenefitTrack reminds you first.</h2></div>')));
     const q = (s) => kit.stage.querySelector(s);
     Object.assign(this, { cam: q('.fix-cam'), mail: q('.fix-mail'), btn: q('.fix-btn'), done: q('.fix-done'), line: q('.fix-line') });
   },

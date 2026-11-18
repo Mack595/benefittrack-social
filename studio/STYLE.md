@@ -51,3 +51,5 @@ Sound: soft pad, light marimba pulse, and the house "ting" on key moments only (
 ## Voice
 Plain, confident, short sentences. Speak to benefits brokers and advisors about their clients
 and their clients' employees. One idea per post. Highlight one word per headline in green.
+On-screen lines about what BenefitTrack does speak to the viewer as "you", not "them":
+"BenefitTrack reminds you first", "on the schedule you choose" (never "reminds them").

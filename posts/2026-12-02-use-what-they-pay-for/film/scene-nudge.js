@@ -7,7 +7,7 @@ kit.scene('nudge', {
         '<div style="display:flex;flex-direction:column;gap:4px"><div class="card-sub" style="color:var(--second)">BenefitTrack</div><div class="card-title">Your health benefit checkup is here</div></div></div>' +
         '<div class="card-sub" style="font-size:36px">Physio resets Dec 31. Book before then.</div>' +
         '<div class="nudge-btn" style="align-self:flex-start;padding:16px 30px;border-radius:40px;background:var(--main);font-family:Geist-Bold;font-size:32px;color:var(--ground)">Book physio</div>' +
-      '</div></div><div class="words" style="left:80px;top:290px;width:860px"><h2 class="line nudge-line">Then it reminds them.</h2><p class="sub nudge-sub">By email, on the schedule they choose.</p></div>')));
+      '</div></div><div class="words" style="left:80px;top:290px;width:860px"><h2 class="line nudge-line">Then it reminds you.</h2><p class="sub nudge-sub">By email, on the schedule you choose.</p></div>')));
     const q = (s) => kit.stage.querySelector(s);
     Object.assign(this, { cam: q('.nudge-cam'), mail: q('.nudge-mail'), btn: q('.nudge-btn'), line: q('.nudge-line'), sub: q('.nudge-sub') });
   },
