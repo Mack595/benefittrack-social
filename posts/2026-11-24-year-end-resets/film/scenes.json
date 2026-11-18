@@ -1,0 +1,1 @@
+{"v": 1, "width": 1080, "height": 1920, "fps": 30, "background": "#0F1729", "scenes": [{"id": "cal", "dur": 3.2}, {"id": "dates", "dur": 3.5}, {"id": "remind", "dur": 3.5}, {"id": "renew", "dur": 3.5}, {"id": "end", "dur": 3.0}]}

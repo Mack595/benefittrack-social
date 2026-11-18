@@ -1,0 +1,1 @@
+{"v": 1, "width": 1080, "height": 1920, "fps": 30, "background": "#0F1729", "scenes": [{"id": "pay", "dur": 3.5}, {"id": "forget", "dur": 3.5}, {"id": "plain", "dur": 3.5}, {"id": "nudge", "dur": 3.2}, {"id": "end", "dur": 3.0}]}
