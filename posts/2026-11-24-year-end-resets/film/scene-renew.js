@@ -3,8 +3,8 @@ kit.scene('renew', {
   init(kit) {
     const row = (cls, text) => '<div class="glass t-green ' + cls + '" style="left:80px;top:0;width:860px;padding:26px 34px;display:flex;align-items:center;gap:26px;background:color-mix(in srgb, var(--ink) 82%, transparent)"><div style="flex:none;width:72px;height:72px;border-radius:36px;background:var(--main);display:flex;align-items:center;justify-content:center"><svg width="42" height="42" viewBox="0 0 24 24" fill="none" stroke="#0F1729" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></div><div class="card-title">' + text + '</div></div>';
     kit.stage.append(kit.h(W.ground('<div class="renew-cam" style="position:absolute;inset:0">' +
-      row('renew-a', 'Coverage used before it resets') + row('renew-b', 'Employees who know their plan') + row('renew-c', 'Value to show at renewal') +
-      '</div><div class="words" style="left:80px;top:290px;width:860px"><p class="sub renew-eye" style="letter-spacing:5px;font-size:32px;font-family:Geist-Bold">FOR BENEFITS BROKERS</p><h2 class="line renew-line">A better year end for your clients.</h2></div>')));
+      row('renew-a', 'Know what your plan covers') + row('renew-b', 'A reminder before each date') + row('renew-c', 'Use it before it resets') +
+      '</div><div class="words" style="left:80px;top:290px;width:860px"><p class="sub renew-eye" style="letter-spacing:5px;font-size:32px;font-family:Geist-Bold">WITH BENEFITTRACK</p><h2 class="line renew-line">A better year end for you.</h2></div>')));
     const q = (s) => kit.stage.querySelector(s);
     this.rows = ['.renew-a', '.renew-b', '.renew-c'].map((s, i) => ({ el: q(s), y: 860 + i * 170, at: 0.45 + i * 0.3 }));
     Object.assign(this, { cam: q('.renew-cam'), eye: q('.renew-eye'), line: q('.renew-line') });
