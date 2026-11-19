@@ -1,101 +1,109 @@
 [
- {
-  "date": "2026-11-13",
-  "slug": "introduce-it-to-a-client",
-  "format": "carousel",
-  "topic": "How a broker can introduce BenefitTrack to a client (TOPICS #23)",
-  "caption": "Bringing BenefitTrack to a client? Here's the short version, in four talking points.\n\nStart with the problem: booklets are long and dense, and benefit categories reset on different schedules, so a single year-end reminder isn't enough.\n\nThen show how it works: three steps for employees, with summaries and reminders by email. Not another dashboard. Free for employees, data never sold, PIPEDA compliant and built in Canada.\n\nWe partner with benefits advisors. Start at BenefitTrack.ca (link in bio).\n\n#benefitsbroker #benefitsadvisor #groupbenefits #clientexperience #employeebenefits",
-  "buffer_post_id": "6af60bab67eed2c3a7f13101"
- },
- {
-  "date": "2026-11-16",
-  "slug": "renewals-arent-won-on-price",
-  "format": "reel (talking head)",
-  "topic": "Renewals aren't won on price",
-  "buffer_post_id": "6af49bff8b79ccfb72f4f83c"
- },
- {
-  "date": "2026-11-17",
-  "slug": "how-it-works",
-  "format": "animated reel",
-  "topic": "How it works in 15 seconds (3 steps)",
-  "buffer_post_id": "6af49f9594165f8d075a4ade"
- },
- {
-  "date": "2026-11-18",
-  "slug": "proof-not-a-quote",
-  "format": "carousel",
-  "topic": "Proof, not a quote (renewal value)",
-  "buffer_post_id": "6af49ce6c6945777c8b1ab26"
- },
- {
-  "date": "2026-11-19",
-  "slug": "3200-sitting-there",
-  "format": "animated reel",
-  "topic": "Founder's $3,200; categories reset; reminder first",
-  "buffer_post_id": "6af49f98c6945777c8b2d074"
- },
- {
-  "date": "2026-11-20",
-  "slug": "clients-you-keep",
-  "format": "reel (talking head)",
-  "topic": "The clients you keep",
-  "buffer_post_id": "6af49ce7aa9908a25ec31734"
- },
- {
-  "date": "2026-11-23",
-  "slug": "brokers-who-stand-out",
-  "format": "still",
-  "topic": "Everybody promises service; brokers who stand out prove it",
-  "buffer_post_id": "6af49bff67456c42e9726416"
- },
- {
-  "date": "2026-11-24",
-  "slug": "year-end-resets",
-  "format": "animated reel",
-  "topic": "December: some categories may reset Dec 31; categories reset on different schedules; reminder first",
-  "buffer_post_id": "6afe05141173b0b5f0e044da"
- },
- {
-  "date": "2026-11-25",
-  "slug": "not-another-booklet",
-  "format": "reel (talking head)",
-  "topic": "Not another booklet (plain language)",
-  "buffer_post_id": "6af49ce894165f8d07592a13"
- },
- {
-  "date": "2026-11-26",
-  "slug": "not-another-dashboard",
-  "format": "still",
-  "topic": "Not another dashboard: just a useful email",
-  "buffer_post_id": "6afe051861c30f01f6ce00e3"
- },
- {
-  "date": "2026-11-27",
-  "slug": "use-it-before-it-resets",
-  "format": "carousel",
-  "topic": "Use it before it resets (founder quote, why unused, 3 steps, trust)",
-  "buffer_post_id": "6af49ce9aa9908a25ec317ce"
- },
- {
-  "date": "2026-11-30",
-  "slug": "prove-it",
-  "format": "reel (talking head)",
-  "topic": "Prove it, with results",
-  "buffer_post_id": "6af49cea56105614fa554dc7"
- },
- {
-  "date": "2026-12-01",
-  "slug": "trust-faq",
-  "format": "carousel",
-  "topic": "Trust FAQ: free, data never sold, booklet not stored, PIPEDA, built in Canada",
-  "buffer_post_id": "6afe051e37e9f56868bb725d"
- },
- {
-  "date": "2026-12-02",
-  "slug": "use-what-they-pay-for",
-  "format": "animated reel",
-  "topic": "Help employees use what the company pays for (plain language, reminders)",
-  "buffer_post_id": "6afe052224f63f6d4cb11251"
- }
+  {
+    "date": "2026-11-13",
+    "slug": "introduce-it-to-a-client",
+    "format": "carousel",
+    "topic": "How a broker can introduce BenefitTrack to a client (TOPICS #23)",
+    "caption": "Bringing BenefitTrack to a client? Here's the short version, in four talking points.\n\nStart with the problem: booklets are long and dense, and benefit categories reset on different schedules, so a single year-end reminder isn't enough.\n\nThen show how it works: three steps for employees, with summaries and reminders by email. Not another dashboard. Free for employees, data never sold, PIPEDA compliant and built in Canada.\n\nWe partner with benefits advisors. Start at BenefitTrack.ca (link in bio).\n\n#benefitsbroker #benefitsadvisor #groupbenefits #clientexperience #employeebenefits",
+    "buffer_post_id": "6af60bab67eed2c3a7f13101"
+  },
+  {
+    "date": "2026-11-16",
+    "slug": "renewals-arent-won-on-price",
+    "format": "reel (talking head)",
+    "topic": "Renewals aren't won on price",
+    "buffer_post_id": "6af49bff8b79ccfb72f4f83c"
+  },
+  {
+    "date": "2026-11-17",
+    "slug": "how-it-works",
+    "format": "animated reel",
+    "topic": "How it works in 15 seconds (3 steps)",
+    "buffer_post_id": "6af49f9594165f8d075a4ade"
+  },
+  {
+    "date": "2026-11-18",
+    "slug": "proof-not-a-quote",
+    "format": "carousel",
+    "topic": "Proof, not a quote (renewal value)",
+    "buffer_post_id": "6af49ce6c6945777c8b1ab26"
+  },
+  {
+    "date": "2026-11-19",
+    "slug": "3200-sitting-there",
+    "format": "animated reel",
+    "topic": "Founder's $3,200; categories reset; reminder first",
+    "buffer_post_id": "6af49f98c6945777c8b2d074"
+  },
+  {
+    "date": "2026-11-20",
+    "slug": "clients-you-keep",
+    "format": "reel (talking head)",
+    "topic": "The clients you keep",
+    "buffer_post_id": "6af49ce7aa9908a25ec31734"
+  },
+  {
+    "date": "2026-11-23",
+    "slug": "brokers-who-stand-out",
+    "format": "still",
+    "topic": "Everybody promises service; brokers who stand out prove it",
+    "buffer_post_id": "6af49bff67456c42e9726416"
+  },
+  {
+    "date": "2026-11-24",
+    "slug": "year-end-resets",
+    "format": "animated reel",
+    "topic": "December: some categories may reset Dec 31; categories reset on different schedules; reminder first",
+    "buffer_post_id": "6afe05141173b0b5f0e044da"
+  },
+  {
+    "date": "2026-11-25",
+    "slug": "not-another-booklet",
+    "format": "reel (talking head)",
+    "topic": "Not another booklet (plain language)",
+    "buffer_post_id": "6af49ce894165f8d07592a13"
+  },
+  {
+    "date": "2026-11-26",
+    "slug": "not-another-dashboard",
+    "format": "still",
+    "topic": "Not another dashboard: just a useful email",
+    "buffer_post_id": "6afe051861c30f01f6ce00e3"
+  },
+  {
+    "date": "2026-11-27",
+    "slug": "use-it-before-it-resets",
+    "format": "carousel",
+    "topic": "Use it before it resets (founder quote, why unused, 3 steps, trust)",
+    "buffer_post_id": "6af49ce9aa9908a25ec317ce"
+  },
+  {
+    "date": "2026-11-30",
+    "slug": "prove-it",
+    "format": "reel (talking head)",
+    "topic": "Prove it, with results",
+    "buffer_post_id": "6af49cea56105614fa554dc7"
+  },
+  {
+    "date": "2026-12-01",
+    "slug": "trust-faq",
+    "format": "carousel",
+    "topic": "Trust FAQ: free, data never sold, booklet not stored, PIPEDA, built in Canada",
+    "buffer_post_id": "6afe051e37e9f56868bb725d"
+  },
+  {
+    "date": "2026-12-02",
+    "slug": "use-what-they-pay-for",
+    "format": "animated reel",
+    "topic": "Help employees use what the company pays for (plain language, reminders)",
+    "buffer_post_id": "6afe052224f63f6d4cb11251"
+  },
+  {
+    "date": "2026-12-03",
+    "slug": "current-balances",
+    "format": "carousel",
+    "topic": "Connect a supported carrier for current balances (TOPICS #16)",
+    "caption": "Not just what's covered. What's left.\n\nBenefitTrack turns the plan booklet into plain language: what's covered, the limits and when each category resets. Connect a supported carrier to see current balances too.\n\nThen the checkup arrives by email, at the frequency you choose, with the next step toward care. Free for employees, and data is never sold.\n\nBrokers: bring it to your clients' plans at BenefitTrack.ca.\n\n#benefitsbroker #groupbenefits #employeebenefits #healthbenefits #benefitsadvisor",
+    "buffer_post_id": "6aff462afeda52ccd0204c4a"
+  }
 ]
