@@ -38,14 +38,25 @@ Numbered steps use filled circles in the same three colours.
 |---|---|---|
 | Carousel slide | 1080x1350 | 6 slides: cover, 4 content, CTA. Counter "02 / 06" top left on content slides |
 | Still image | 1080x1350 | one idea, one headline, logo + BenefitTrack.ca at the bottom |
-| Animated reel | 1080x1920 | 15 to 20 s, 4 to 6 scenes, ends on the logo card with BenefitTrack.ca |
+| Animated reel | 1080x1920 | 7 to 10 s, 3 to 4 scenes, ends on the logo card with BenefitTrack.ca |
 
 Padding: 88 to 96 px on posts. Reels: keep all words between y = 250 and y = 1500 and left of x = 960
 (Instagram's buttons and caption cover the rest).
 
+## The hook (reels, first 2 seconds)
+Average watch time on the November reels was 3 to 4 s, so the first frame decides everything.
+- Frame 0 already shows the hook headline at full size, readable with no motion. Never open on an empty
+  blueprint, a fade-up or a slow build.
+- The hook is a direct question or a sharp statement to "you" ("Do you know what's left in your plan?",
+  "Your massage coverage may reset Dec 31."), 3 to 8 words, Black weight, 120 px or larger.
+- Something visibly changes by 0.5 s and again by about 1.5 s (a word turns green, a card or number snaps in,
+  a hard cut). One idea per scene, a cut every 2 to 3 s.
+- The hook stays on screen for at least 1.5 s so it lands in the Buffer thumbnail and the grid.
+- The rest of the reel pays off the hook in one or two beats. The end card is at most 2 s.
+
 ## Motion and sound (reels)
-Calm. Elements glide in and settle (ease-out, small overshoot at most). No bouncing, shaking, whooshes,
-clicks or thuds. Headlines enter with `TextFx.fadeFromRight`. Camera: a slow 2 to 3% push, no tracking.
+After the hook: calm. Elements glide in and settle (ease-out, small overshoot at most). No bouncing, shaking, whooshes,
+clicks or thuds. Headlines after the hook enter with `TextFx.fadeFromRight` (the hook itself is on screen from frame 0). Camera: a slow 2 to 3% push, no tracking.
 Sound: soft pad, light marimba pulse, and the house "ting" on key moments only (see `reel/music.py`).
 
 ## Voice

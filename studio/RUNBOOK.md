@@ -37,14 +37,17 @@ Fix anything the script reports as OVERFLOW or ERRORS.
 `scene-<id>.js` per scene and `music.json`. Start from a copy of `films/how-it-works` or
 `films/3200-sitting-there` (same runtime API: `kit.scene(id, {init(kit), render(t)})`,
 `kit.h`, `seg`, `eo`, `eob`, `eio`, `lerp`, `TextFx.fadeFromRight`, `kit.breathe`, `kit.assets.url`).
-4 to 6 scenes, 15 to 20 s total, last scene is the end card (shield, wordmark, one line, BenefitTrack.ca).
+3 to 4 scenes, 7 to 10 s total, last scene is the end card (shield, wordmark, one line, BenefitTrack.ca), at most 2 s.
+Follow "The hook" in `STYLE.md`: the hook headline is fully visible at frame 0 and something changes by 0.5 s.
+Always take a still at 0 s and at 0.5 s and check the hook is readable in both.
 Render: `node studio/reel/render.js posts/<dir>/film posts/<dir>/reel.mp4 --still "2,posts/<dir>/check-1.png;..."`
 taking one still per scene to check.
 
 ## 4. Check before uploading
 - Look at every PNG and reel still (make a contact sheet and Read it). Text must be readable, inside the
   canvas, not overlapping, and for reels inside y 250 to 1500 and x below 960.
-- `ffprobe` each reel: 1080x1920, H.264 + AAC, 15 to 20 s.
+- `ffprobe` each reel: 1080x1920, H.264 + AAC, 7 to 10 s.
+- Reel hook check: the 0 s still shows the full hook headline (not a blank or fading frame). If not, fix it or drop the reel.
 - Re-read each caption against `CONTENT.md`: facts only, hook first, one call to action, exactly 5 hashtags.
 - If something can't be fixed, drop that post rather than schedule a broken one.
 
@@ -56,7 +59,7 @@ taking one still per scene to check.
 4. `create_post` per post: `schedulingType: automatic`, `mode: customScheduled`,
    `dueAt: <date>T12:15:00<offset from get_account>`, caption as `text`, and
    - carousel / still: `assets` = images in order, each with `metadata.altText`; `metadata.instagram = {type: "post", shouldShareToFeed: true}`
-   - reel: one video asset with `metadata.title` and `thumbnailOffset` (ms) at a frame where the headline shows;
+   - reel: one video asset with `metadata.title` and `thumbnailOffset` (ms) inside the first 1.5 s, where the hook headline shows;
      `metadata.instagram = {type: "reel", shouldShareToFeed: true}`
 5. `list_posts` again and confirm each new post is `scheduled` with no error.
 
