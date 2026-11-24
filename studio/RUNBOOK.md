@@ -1,8 +1,9 @@
-# Weekly run: make and schedule BenefitTrack Instagram posts
+# Daily run: keep the Buffer queue topped up with BenefitTrack reels
 
-Runs every Thursday as a scheduled task. Fully automatic: the owner approved scheduling without review.
-Goal: one post at **12:15 pm America/Winnipeg every Monday to Friday**, mixing animated reels,
-carousels and still images.
+Runs every weekday at 1:23 pm Winnipeg as a scheduled task, just after that day's 12:15 post goes out and frees
+a slot in Buffer. Fully automatic: the owner approved scheduling without review.
+Goal: one post at **12:15 pm America/Winnipeg every Monday to Friday**. New posts are **animated reels**
+(owner's request, 2026-11-24), made to the hook rules in `STYLE.md`. Posts already in the queue stay as they are.
 
 Read `STYLE.md`, `CONTENT.md`, `TOPICS.md` (in `studio/`) and `log.json` (repository root) before making anything. Run all commands from the repository root.
 
@@ -17,12 +18,15 @@ Read `STYLE.md`, `CONTENT.md`, `TOPICS.md` (in `studio/`) and `log.json` (reposi
 3. Candidate slots: every Monday to Friday at 12:15 local, from tomorrow through the next 14 days.
    Remove dates that already have a scheduled post (any time that day).
 4. Number to make = min(open slots, plan limit minus currently scheduled, 6). Take the earliest slots.
-   If the number is 0, skip to step 6 and report why (usually the free plan's 10-post cap).
+   If the number is 0 (the queue is full), stop here: change nothing, commit nothing and send no message.
 
 ## 2. Plan the posts
-- Mix: about 2 reels, 2 carousels, 1 still per 5 posts. Never the same format on two days in a row
-  (check the posts already scheduled around each slot).
+- Format: every new post is an animated reel (no people on camera). Vary the look from reel to reel
+  (chips, cards, email mock-up, booklet, big number, checklist) so consecutive reels don't look alike.
 - Pick topics from `TOPICS.md` not used in the last 6 weeks (`log.json`). Seasonal topics near their date.
+  A topic marked C or S can still be made as a reel. If every topic was used in the last 6 weeks, take the
+  least recently used one with a clearly different hook, or add a new topic to `TOPICS.md` built only from
+  `CONTENT.md` facts. Never reuse a hook line that is already in `log.json`.
 - Write every word from `CONTENT.md` facts only. No invented numbers, testimonials or people.
 
 ## 3. Make them
@@ -65,5 +69,5 @@ taking one still per scene to check.
 
 ## 6. Log and report
 - Append each post to `log.json`: `{date, slug, format, topic, caption, buffer_post_id}`. Commit and push.
-- Send the owner one short message: the posts scheduled (date, format, headline), anything skipped and why.
-  If nothing could be scheduled, say so plainly with the reason.
+- If at least one post was scheduled, or something failed, send the owner one short message: the posts
+  scheduled (date, format, headline), anything skipped and why. If the queue was simply full, send nothing.
