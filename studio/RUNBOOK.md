@@ -20,6 +20,17 @@ Read `STYLE.md`, `CONTENT.md`, `TOPICS.md` (in `studio/`) and `log.json` (reposi
 4. Number to make = min(open slots, plan limit minus currently scheduled, 6). Take the earliest slots.
    If the number is 0 (the queue is full), stop here: change nothing, commit nothing and send no message.
 
+## 1b. Owner-filmed videos go first
+`studio/FILMED.json` lists talking-head reels the owner filmed (owner's request, 2026-11-27). Before making
+any animated reel, fill the earliest open slots with videos whose `status` is `waiting`, in list order, one per slot.
+- Post the file exactly as it is (never re-edit, trim or re-render it). It is already in `media/filmed/`.
+- These are **employee-directed**: use the stored `caption` as written (it speaks to employees, not brokers).
+- Check the media URL returns 200, then `create_post` as a reel (section 5, step 4) with the stored `title`
+  and `thumbnailOffset`.
+- Set the entry's `status` to `scheduled`, fill `date` and `buffer_post_id`, and append it to `log.json`
+  with `format: "reel (talking head, owner-filmed)"`. Commit and push.
+- Only the slots left over after this get new animated reels (sections 2 to 5).
+
 ## 2. Plan the posts
 - Format: every new post is an animated reel (no people on camera). Vary the look from reel to reel
   (chips, cards, email mock-up, booklet, big number, checklist) so consecutive reels don't look alike.
@@ -69,5 +80,5 @@ taking one still per scene to check.
 
 ## 6. Log and report
 - Append each post to `log.json`: `{date, slug, format, topic, caption, buffer_post_id}`. Commit and push.
-- If at least one post was scheduled, or something failed, send the owner one short message: the posts
+- If at least one post was scheduled, or something failed, send the owner one short message: the posts (including any owner-filmed videos)
   scheduled (date, format, headline), anything skipped and why. If the queue was simply full, send nothing.

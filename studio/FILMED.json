@@ -1,0 +1,49 @@
+{
+ "_note": "Owner-filmed, employee-directed talking-head reels (owner request 2026-11-27). Captions speak to employees. Schedule in this order, one per open slot, before making any animated reel. Set status to 'scheduled' and fill date/buffer_post_id once scheduled. Never edit the videos.",
+ "videos": [
+  {
+   "slug": "ghosted",
+   "file": "media/filmed/ghosted/reel.mp4",
+   "source_name": "BenefitTrack 2.mp4",
+   "title": "Your benefits might ghost you",
+   "thumbnailOffset": 1000,
+   "caption": "Your benefits might be about to ghost you.\n\nSome categories may reset Dec 31, and they don't all reset on the same day. Drop your benefits booklet into BenefitTrack to see what's covered in plain language, what's left and when it resets.\n\nThen get your health benefit checkup by email, at the frequency you choose, with the next step, like booking a massage. Free for employees.\n\nTry it at BenefitTrack.ca (link in bio).\n\n#employeebenefits #healthbenefits #paramedical #groupbenefits #BenefitTrack",
+   "status": "waiting",
+   "date": null,
+   "buffer_post_id": null
+  },
+  {
+   "slug": "3200-sitting-there",
+   "file": "media/filmed/3200-sitting-there/reel.mp4",
+   "source_name": "BenefitTrack 1.mp4",
+   "title": "$3,200 just sitting there",
+   "thumbnailOffset": 2500,
+   "caption": "\u201cI realized I had $3,200 worth of massages, physio, and therapy appointments just sitting there.\u201d\n\nThat's why BenefitTrack exists. Benefit categories reset on different schedules, so a single year-end reminder isn't enough. BenefitTrack shows what your plan covers in plain language, with limits and reset dates, then reminds you by email.\n\nFree for employees. Your data is never sold.\n\nSee what you've got left at BenefitTrack.ca (link in bio).\n\n#employeebenefits #healthbenefits #paramedical #groupbenefits #BenefitTrack",
+   "status": "waiting",
+   "date": null,
+   "buffer_post_id": null
+  },
+  {
+   "slug": "check-engine",
+   "file": "media/filmed/check-engine/reel.mp4",
+   "source_name": "BenefitTrack 4.mp4",
+   "title": "If my body was a car",
+   "thumbnailOffset": 1000,
+   "caption": "If your body was a car, would the check engine light be on?\n\nBack, eyes, teeth: appointments are easy to put off when your coverage is buried in a long booklet. BenefitTrack reads it for you and shows what's covered in plain language, what's left and when it resets.\n\nFree for employees. Built in Canada.\n\nFind out what you're covered for at BenefitTrack.ca (link in bio).\n\n#employeebenefits #healthbenefits #paramedical #groupbenefits #BenefitTrack",
+   "status": "waiting",
+   "date": null,
+   "buffer_post_id": null
+  },
+  {
+   "slug": "forgotten-gift-card",
+   "file": "media/filmed/forgotten-gift-card/reel.mp4",
+   "source_name": "BenefitTrack 3.mp4",
+   "title": "The gift card you forgot about",
+   "thumbnailOffset": 1000,
+   "caption": "Ever find a gift card you completely forgot about? Your benefits can be a lot like that.\n\nThe booklet tells you your limits, but not what's left. Drop it into BenefitTrack once to see what's covered in plain language, what's left and when it resets.\n\nFree for employees. Your data is never sold.\n\nUse the benefits you already have: BenefitTrack.ca (link in bio).\n\n#employeebenefits #healthbenefits #paramedical #groupbenefits #BenefitTrack",
+   "status": "waiting",
+   "date": null,
+   "buffer_post_id": null
+  }
+ ]
+}
